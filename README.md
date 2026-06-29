@@ -88,22 +88,7 @@ Run Backend
 npm start
 ```
 
----
 
-## 🔑 Environment Variables
-
-Backend
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
-FRONTEND_URL=http://localhost:5173
-```
-
-Frontend
-
-```env
-VITE_API_URL=http://localhost:5000/api
-```
 
 ---
 
