@@ -7,7 +7,7 @@ An AI-powered Resume Analyzer that evaluates resumes using ATS (Applicant Tracki
 ## 🌐 Live Demo
 
 **Live Website:**
-[https://your-vercel-link.vercel.app](https://skillmatch-ai-resume-analyzer.vercel.app/)
+https://skillmatch-ai-resume-analyzer.vercel.app/
 
 ---
 
