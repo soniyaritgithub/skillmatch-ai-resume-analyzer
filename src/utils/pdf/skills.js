@@ -144,8 +144,12 @@ const skills = (() => {
     );
 
     // Filled Progress
-    const progressWidth =
-      (barWidth * skill.score) / 100;
+    const score = Number(skill?.score ?? 0);
+
+const progressWidth = Math.max(
+  0,
+  Math.min(barWidth, (barWidth * score) / 100)
+);
 
     const getSkillColor = (score) => {
       if (score >= 85)
@@ -158,7 +162,7 @@ const skills = (() => {
     };
 
     doc.setFillColor(
-      ...getSkillColor(skill.score)
+      ...getSkillColor(score)
     );
 
     doc.roundedRect(

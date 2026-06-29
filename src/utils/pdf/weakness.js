@@ -65,7 +65,10 @@ doc.setFillColor(
   242,
   242
 );
-
+console.log({
+  currentY,
+  cardHeight
+});
 doc.roundedRect(
   PAGE.margin,
   currentY,
